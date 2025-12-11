@@ -64,7 +64,7 @@ a {
   text-align: center;
   color: #fff;
 }
-button {
+.button {
   font-weight: 500;
   line-height: 1.5;
   font-size: 16px;
@@ -97,6 +97,18 @@ button:focus {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.features-text,
+.team-text,
+.portfolio-text,
+.foter-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.foter-text {
+  color: #f4f4fd;
+}
+
 .team-subtitle,
 .team-text {
   text-align: center;
@@ -109,5 +121,4 @@ button:focus {
 }
 .page-footer {
   background-color: #2e2f42;
-  color: #f4f4fd;
 }
